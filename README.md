@@ -2,7 +2,9 @@
 
 сылки на скрины макета 
 https://prnt.sc/26y16hb
+
 https://prnt.sc/26y16rp
+
 https://prnt.sc/26y16y1
 
 Сверстано на HTML + чистый JS + DOM, SCSS
