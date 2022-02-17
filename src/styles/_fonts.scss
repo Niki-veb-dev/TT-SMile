@@ -1,6 +1,12 @@
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-family: 'Marvel';
+  src: url('../fonts/Marvel-Regular.eot');
+  src: local('Marvel'), local('Marvel-Regular'),
+      url('../fonts/Marvel-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Marvel-Regular.woff2') format('woff2'),
+      url('../fonts/Marvel-Regular.woff') format('woff'),
+      url('../fonts/Marvel-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+

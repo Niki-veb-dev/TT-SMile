@@ -1,0 +1,59 @@
+.form {
+  display: grid;
+  font-size: 24px;
+  font-weight: 700;
+  grid-template-rows: repeat(3, auto);
+
+  &__selected {
+    margin-top: 10px;
+  }
+
+  &__body {
+    display: none;
+    flex-direction: column;
+  }
+
+
+  &__inputs {
+    align-self: flex-end;
+    margin-bottom: 80px;
+
+    @include onMobile {
+      grid-row: 2/3;
+      margin-bottom: 22px;
+    }
+  }
+
+  &__select {
+    margin-bottom: 30px;
+  }
+
+  &__selected {
+    color: $c-black;
+  }
+
+  &__input {
+    border: none;
+    margin-top: 27px;
+    background: $c-gray;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+
+  &__button {
+    width: 130px;
+    height: 60px;
+    color: $c-blue;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 20px;
+    @extend %uppercase;
+    border: 2px solid $c-blue;
+    background-color: $c-white;
+
+    &:active {
+      background-color: $c-blue;
+      color: $c-white;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.element {
+  display: grid;
+  padding-top: 100px;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, max(300px));
+
+  @include onMobile {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    padding-top: 10px;
+  }
+}

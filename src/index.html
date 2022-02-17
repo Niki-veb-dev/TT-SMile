@@ -7,7 +7,155 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <section>
+      <div class="container">
+        <div class="element">
+          <div class="grid-section-1">
+            <div class="links">
+              <a
+                href="/"
+                class="links__item border"
+                onclick="event.preventDefault()"
+              >
+                Default Link
+              </a>
+              <a
+                href="/"
+                class="links__item border"
+                onclick="event.preventDefault()"
+              >
+                Hovered Link
+              </a>
+
+              <a
+                href="/"
+                class="links__item is-active"
+                onclick="event.preventDefault()"
+              >
+                Active Link
+              </a>
+
+              <a
+                href="/"
+                class="links__item visited border"
+                onclick="event.preventDefault()"
+              >
+                Visited Link
+              </a>
+            </div>
+
+            <div class="select">
+              <div class="select__header">
+                <span class="select__current">No selected element</span>
+                <div class="select__icon"></div>
+              </div>
+
+              <div class="select__body">
+                <span class="select__item">First item</span>
+                <span class="select__item" >second item</span>
+                <span class="select__item">third item</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-section-2">
+            <form action="GET" class="form">
+              <div class="form__inputs">
+
+                <div class="input">
+                  <div class="input__checkbox">
+                    <label class="input__lable">
+                      <input type="checkbox" class="input__item">
+                      <span class="input__square"></span>
+                      Default
+                    </label>
+
+                    <label class="input__lable">
+                      <input type="checkbox" class="input__item" checked >
+                      <span class="input__square"></span>
+                      Checked
+                    </label>
+
+                    <label class="input__lable">
+                      <input type="checkbox" class="input__item" disabled>
+                      <span class="input__square"></span>
+                      Disabled
+                    </label>
+                  </div>
+
+                  <div class="input__radio-button">
+                    <label class="input__lable">
+                      <input
+                        type="radio"
+                        class="input__item"
+                        name="radio"
+                      >
+                      <span class="input__circle"></span>
+                      Default
+                    </label>
+
+                    <label class="input__lable">
+                      <input
+                        type="radio"
+                        class="input__item"
+                        name="radio"
+                        checked
+                      >
+                      <span class="input__circle"></span>
+                      Checked
+                    </label>
+
+                    <label class="input__lable">
+                      <input
+                      type="radio"
+                      class="input__item"
+                      name="radio"
+                      disabled
+                    >
+                      <span class="input__circle"></span>
+                      Disabled
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="select form__select">
+                <div class="select__header form__header">
+                  <span class="select__current form__selected">No selected element</span>
+                  <div class="select__icon form__icon"></div>
+                </div>
+
+                <label>
+                  <input
+                    type="text"
+                    placeholder="Input"
+                    class="form__input"
+                  >
+                </label>
+
+                <label>
+                  <input
+                    type="text"
+                    placeholder="Input"
+                    class="form__input"
+                    value="Text"
+                  >
+                </label>
+              </div>
+
+              <div class="form__buttons">
+                <button
+                  class="form__button"
+                >
+                  send
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

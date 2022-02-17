@@ -1,6 +1,12 @@
+@import "reset";
 @import "utils";
 @import "fonts";
-@import "typography";
+@import "./block/container";
+@import "./block/element";
+@import "./block/form";
+@import "./block/links";
+@import "./block/input";
+@import "./block/select";
 
 body {
   background: $c-gray;

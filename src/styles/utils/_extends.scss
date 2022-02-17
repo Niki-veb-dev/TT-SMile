@@ -1,4 +1,8 @@
-%h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+%border {
+  border-bottom: 2px solid $c-black;
 }
+
+%uppercase {
+  text-transform: uppercase;
+}
+
