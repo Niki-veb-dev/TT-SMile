@@ -1,6 +1,6 @@
 [DEMO LINK](https://niki-veb-dev.github.io/TT-SMile/)
 
-добавил папку dist
+добавил папку dist, теперь только зайти в папку и открыть index.html
 
 сылки на скрины макета 
 https://prnt.sc/26y16hb
