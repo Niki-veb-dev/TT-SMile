@@ -33,14 +33,22 @@
   }
 
   &__input {
+    width: 100%;
     border: none;
+    font-size: 24px;
+    font-weight: 700;
     margin-top: 27px;
+    font-family: Marvel;
     background: $c-gray;
     padding-bottom: 10px;
     border-bottom: 1px solid black;
   }
 
   &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     width: 130px;
     height: 60px;
     color: $c-blue;

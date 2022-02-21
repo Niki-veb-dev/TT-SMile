@@ -1,7 +1,6 @@
 .container {
   margin: 0 auto;
   width: 724px;
-  font-family: Marvel;
 
   @include onTablet {
     width: 675px;
