@@ -1,5 +1,6 @@
 [DEMO LINK](https://niki-veb-dev.github.io/TT-SMile/)
-добавил dist
+
+добавил папку dist
 
 сылки на скрины макета 
 https://prnt.sc/26y16hb
