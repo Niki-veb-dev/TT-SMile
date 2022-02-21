@@ -1,4 +1,17 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+[DEMO LINK](https://niki-veb-dev.github.io/TT-SMile/)
+
+сылки на скрины макета 
+https://prnt.sc/26y16hb
+
+https://prnt.sc/26y16rp
+
+https://prnt.sc/26y16y1
+
+Сверстано на HTML + чистый JS + DOM, SCSS,
+использовал готовую начальную сборку с линтером чтобы быстрее сделать, если нужно поднять проект локально тогда нужно скачать репозиторий , прописать npm install а затем npm start, в проекте по возможности старался писать по БЕМ, 
+
+Default link и остальные линки нажимаются без перезагрузки, имеюют некую динамику
+
+если выбран айтем в селекте он добавится в псевдоселект формы, если прожать у псевдоселекта формы "+" айтем добавится ниже,
+
+Кнопка SEND перезагрузит страницу
